@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>iPhoneIcon.png</string>
+		<string>iPhoneIcon@2x.png</string>
+		<string>iPadIcon.png</string>
+		<string>Icon-Small-50.png</string>
+		<string>Icon-Small.png</string>
+		<string>Icon-Small@2x.png</string>
+	</array>
+	<key>CFBundleIdentifier</key>
+	<string>com.miketucker.ipadabraxas</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleVersion</key>
+	<string>1.1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIPrerenderedIcon</key>
+	<true/>
+	<key>UIRequiredDeviceCapabilities</key>
+	<dict>
+		<key>accelerometer</key>
+		<true/>
+		<key>opengles-1</key>
+		<true/>
+	</dict>
+	<key>UIStatusBarHidden</key>
+	<true/>
+</dict>
+</plist>
